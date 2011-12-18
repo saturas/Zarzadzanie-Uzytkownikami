@@ -5,10 +5,7 @@ using System.Text;
 
 namespace Zarzadzanie_uzytkownikami
 {
-    class Zlecenie
+    class Dokument
     {
-        private int _numerZlecenia;
-        private int _numerKlienta;
-        private DateTime _dataUtworzenia;
     }
 }
