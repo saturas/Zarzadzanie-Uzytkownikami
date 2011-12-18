@@ -34,7 +34,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Dokument.cs" />
+    <Compile Include="HistoriaZlecen.cs" />
+    <Compile Include="Role\Rola.cs" />
+    <Compile Include="Role\RolaAdministrator.cs" />
+    <Compile Include="Role\RolaKlient.cs" />
+    <Compile Include="Role\RolaPracownik.cs" />
+    <Compile Include="Role\RolaTlumacz.cs" />
     <Compile Include="Zlecenie.cs" />
+    <Compile Include="ZlecenieArchiwalne.cs" />
+    <Compile Include="ZlecenieBiezace.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
