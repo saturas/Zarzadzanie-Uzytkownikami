@@ -1,0 +1,25 @@
+Problem:
+	Skad klient ma mieæ link do historii zleceñ?
+
+problem:
+	Postep w tlumaczeniu(stopien realizacjI) ma byc zwi¹zany z ka¿dym dokumentem z osobna czy ze zleceniem? 
+
+	zak³adam ¿e ja zwracam liste stopni realizacji dla poszczególnych dokumentow. stopien realizacji to liczba od 0 do 100
+	bêdzie to mapa postaci <nazwa dokumentu, stopien realizacji>
+
+
+problem: 
+	jak przy archiwizowaniu zlecenia biezacego usun¹æ je z listy zlecen biezacych we wszystkich rolach?
+	rozumiem ze pracownik wydaje decyzje o zakonczeniu zlecenia i dokonaniu archiwizacji
+
+problem podobny:
+	Jak przy tworzeniu nowego zlecenia przez klienta to nowe zlecenie przerzucic do listy zlecen u RolaPracownik?
+
+zmienic na diagramie:
+
+Dopisano:
+
+	numer klienta w zleceniu biezacym
+
+	Usunac ze zlecenia biezacego:
+		jezyki, nazwy dokumentow, stopien realizacji i tlumacza. oraz metody z tlumaczem i setStopienrealizacji

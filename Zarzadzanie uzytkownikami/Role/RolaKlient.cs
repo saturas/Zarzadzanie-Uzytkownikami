@@ -40,8 +40,10 @@ namespace Zarzadzanie_uzytkownikami.Role
         }
 
 
-        public void ZlozZlecenie()
+        public void ZlozZlecenie(LinkedList<Dokument> dokumenty, DateTime terminUkonczenia)
         {
+            ZlecenieBiezace zlecenie = new ZlecenieBiezace(dokumenty, terminUkonczenia, Numer);
+            ListaZlecenBiezacych.AddLast(zlecenie);
         }
 
         public LinkedList<ZlecenieArchiwalne> PrzegladajHistorieZLecen()
@@ -49,5 +51,19 @@ namespace Zarzadzanie_uzytkownikami.Role
             return HistoriaZlecen.ZwrocRekordyKlienta(Numer);
         }
         
+
+        // Dla kazdego zlecenia(robi z nich liste) zwraca mape <dokument, postep w jego tlumaczeniu>
+        public LinkedList<System.Collections.Hashtable> PrzegladajPostepBiezacychZLecen()
+        {
+            LinkedList<System.Collections.Hashtable> lista = new LinkedList<System.Collections.Hashtable>();
+
+            foreach ( ZlecenieBiezace z in ListaZlecenBiezacych)
+            {
+                lista.AddLast(z.StopienRealizacji());
+            }
+
+            return lista;
+        }
+
     }
 }

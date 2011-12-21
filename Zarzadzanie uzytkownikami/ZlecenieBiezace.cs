@@ -34,7 +34,7 @@ namespace Zarzadzanie_uzytkownikami
         }
 
         // skad zlecenie biezace ma wiedziec gdzie jest Historia zlecen? Historia zlecen ma byc statyczna?
-        public void archiwizuj()
+        public void Archiwizuj()
         {
             LinkedList<String> nazwyDokumentow = new LinkedList<string>(); // ta liste trzeba uzupelnic nazwami ale to musimy znac nazwy dokumentow z klasy dokument
             
@@ -44,6 +44,18 @@ namespace Zarzadzanie_uzytkownikami
             
             HistoriaZlecen.ListaZlecen.AddLast(z);
 
+        }
+
+
+        // zwroci mape Nazwa, progres. to trzeba uaktualnic jak nam dostarcza ten obiekt dokuemnt
+        public System.Collections.Hashtable StopienRealizacji()
+        {
+            System.Collections.Hashtable mapa = new System.Collections.Hashtable();
+            foreach (Dokument d in DokumentyDoPrzetlumaczenia)
+            {
+                mapa.Add(d.Name, d.Progres);
+            }
+            return mapa;
         }
 
     }
