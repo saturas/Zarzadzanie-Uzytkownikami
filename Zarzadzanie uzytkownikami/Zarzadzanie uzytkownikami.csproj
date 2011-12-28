@@ -41,6 +41,7 @@
     <Compile Include="Role\RolaKlient.cs" />
     <Compile Include="Role\RolaPracownik.cs" />
     <Compile Include="Role\RolaTlumacz.cs" />
+    <Compile Include="Uzytkownik.cs" />
     <Compile Include="Zlecenie.cs" />
     <Compile Include="ZlecenieArchiwalne.cs" />
     <Compile Include="ZlecenieBiezace.cs" />
