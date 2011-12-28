@@ -52,15 +52,31 @@ namespace Zarzadzanie_uzytkownikami
         }
 
 
-        public void DodajRole(String nazwa)
+        public void DodajRole(String nazwa, ManagerLogowania man)
         {
             if(nazwa=="klient")
             {
-                Role.Add(new RolaKlient());         
+                Role.Add(new RolaKlient());
             }
+            else if (nazwa == "pracownik")
+            {
+                Role.Add(new RolaPracownik());
+            }
+            else if (nazwa == "tlumacz")
+            {
+                Role.Add(new RolaTlumacz());
+            }
+            else if (nazwa == "administrator")
+            {
+                Role.Add(new RolaAdministrator(man));
+            }
+
 
         }
 
-        public void UsunRole(Rola r)
+        public void UsunRole(String nazwa)
+        {
+            // uzupelnic
+        }
     }
 }

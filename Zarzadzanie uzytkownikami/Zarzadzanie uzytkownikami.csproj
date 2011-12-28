@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="Dokument.cs" />
     <Compile Include="HistoriaZlecen.cs" />
+    <Compile Include="ManagerLogowania.cs" />
     <Compile Include="Role\Rola.cs" />
     <Compile Include="Role\RolaAdministrator.cs" />
     <Compile Include="Role\RolaKlient.cs" />
@@ -48,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

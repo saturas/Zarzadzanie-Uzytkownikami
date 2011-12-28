@@ -7,5 +7,11 @@ namespace Zarzadzanie_uzytkownikami
 {
     class RolaAdministrator : Rola
     {
+        ManagerLogowania _m;
+        public RolaAdministrator(ManagerLogowania m)
+        {
+            _m = m;
+        }
+
     }
 }

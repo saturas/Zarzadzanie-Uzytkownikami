@@ -40,11 +40,23 @@ Problemy:
 	Trzeba dokonczyc ta metode
 	
 
+	4. (Uzytkownik) Jak ³adnie usun¹æ rolê? 
+
+	5. zmiana koncepcji na tak¹ 
+
+
 zmienic na diagramie:
 	RolaPracownik: DodajZlecenie(Zlecenie biezace, Rolaklient)
 		listazlecenbiezacychprzydzielonych
 		listazlecenbiezacychnieprzydzielonych
 		ArchiwizujZlecenie
 
+	Uzytkownik: 
+		dodac login i haslo
 
-
+	ManagerLogowania:
+		1 dodadc metode wyloguj
+		2 pouzupe³niac typy zwracane przez funkcje
+		3 usunac metodê sesja(na pewno nie potrzebna?)
+		4 nie przekazujemy administratora w metodach rejestracyjnych bo jest to niepotrzebne
+		5. dodac parametry imie i nazwisko w rejestracyjnych
