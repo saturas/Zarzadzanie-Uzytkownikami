@@ -89,7 +89,7 @@ namespace Zarzadzanie_uzytkownikami
             user.DodajRole("tlumacz",null);
             return true;
         }
-        // ta metode wywoluje tylko Administrator
+        // ta metode wywoluje tylko Administrator, od razu dodanie powoduje dodanie do niezalogowanych a nie niezweryfikowanych jak wczseniej
         public Boolean DodajNowegoAdministratora(String login, String haslo, String imie, String nazwisko)
         {
             foreach (Uzytkownik u in ListaUzytkownikowNiezalogowanych)
@@ -107,7 +107,7 @@ namespace Zarzadzanie_uzytkownikami
                 }
             }
             Uzytkownik user = new Uzytkownik(login, haslo, imie, nazwisko);
-            ListaUzytkownikowNiezweryfikowanych.AddFirst(user);
+            ListaUzytkownikowNiezalogowanych.AddFirst(user);
             user.DodajRole("administrator",this);
             return true;
         }
@@ -129,7 +129,7 @@ namespace Zarzadzanie_uzytkownikami
                 }
             }
             Uzytkownik user = new Uzytkownik(login, haslo, imie, nazwisko);
-            ListaUzytkownikowNiezweryfikowanych.AddFirst(user);
+            ListaUzytkownikowNiezalogowanych.AddFirst(user);
             user.DodajRole("pracownik", null);
             return true;
         }

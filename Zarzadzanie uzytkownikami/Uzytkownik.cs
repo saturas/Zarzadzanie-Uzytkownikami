@@ -52,6 +52,7 @@ namespace Zarzadzanie_uzytkownikami
         }
 
 
+        // trzeba zaklepac metode weryfikująca ktora najpierw wysle prosbe dodania roli do administratora i dopiero wywola tą metodę
         public void DodajRole(String nazwa, ManagerLogowania man)
         {
             if(nazwa=="klient")

@@ -60,3 +60,9 @@ zmienic na diagramie:
 		3 usunac metodê sesja(na pewno nie potrzebna?)
 		4 nie przekazujemy administratora w metodach rejestracyjnych bo jest to niepotrzebne
 		5. dodac parametry imie i nazwisko w rejestracyjnych
+
+	RolaAdministrator:
+		1. Zmienic nazwe metody dodajAdminna na dodaj administratora
+		2. Dodac parametry metody dodajAdministratora i dodajPracownika
+		3. usunac parametry z weryfikujPoprawnosc
+		
