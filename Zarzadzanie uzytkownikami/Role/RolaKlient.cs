@@ -44,6 +44,8 @@ namespace Zarzadzanie_uzytkownikami.Role
         {
             ZlecenieBiezace zlecenie = new ZlecenieBiezace(dokumenty, terminUkonczenia, Numer);
             ListaZlecenBiezacych.AddLast(zlecenie);
+            RolaPracownik.DodajZlecenie(zlecenie, this);
+
         }
 
         public LinkedList<ZlecenieArchiwalne> PrzegladajHistorieZLecen()

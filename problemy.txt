@@ -23,3 +23,28 @@ Dopisano:
 
 	Usunac ze zlecenia biezacego:
 		jezyki, nazwy dokumentow, stopien realizacji i tlumacza. oraz metody z tlumaczem i setStopienrealizacji
+
+
+28.12 
+Problemy:
+	Za³o¿y³em ¿e lista Zleceñ Bie¿¹cych u Pracownika dzieli siê na przydzielone i nie przydzielone. Ponaddto ¿e ka¿dy
+	pracownik ma tak¹ sam¹ listê bo inaczej trzeba by znaæ jakiœ algorytm rozdzia³u nowych zlecen pomiêdzy pracownikow a nie by³o
+	o tym mowy. Zreazlizowa³em to jako dwie statyczne mapy, by przechowywaæ w parze jeszce referencje
+
+
+	2. Kazdy Pracownik ma mieæ swoj¹ lise t³umaczy? Kto ma j¹ tworzyæ, on sam czy odgórnie administrator?
+
+
+	3. (ArchiwizujZlecenie w RolaPracownik)Jest taki problem ze nie wiem jak po kluczu w mapie wydobyæ jego obiekt. Jeœli to zrobie przez enumerator to on potraktuje
+	wydobyty obiekt jak typu "Obiekt" i nie bedzie siê da³o na nim wywo³aæ jego metod
+	Trzeba dokonczyc ta metode
+	
+
+zmienic na diagramie:
+	RolaPracownik: DodajZlecenie(Zlecenie biezace, Rolaklient)
+		listazlecenbiezacychprzydzielonych
+		listazlecenbiezacychnieprzydzielonych
+		ArchiwizujZlecenie
+
+
+
