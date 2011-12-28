@@ -7,16 +7,22 @@ namespace Zarzadzanie_uzytkownikami
 {
     class HistoriaZlecen
     {
-        // statyczne jest po to by sobie klient mogl wywolac metode przelgadania historii nie majac referencji do niej
-        private static LinkedList<ZlecenieArchiwalne> _listaZlecen = new LinkedList<ZlecenieArchiwalne>(); // tak to rozwiazac czy w konstruktorze tworzcy obiekt?
+        private static HistoriaZlecen _instance = new HistoriaZlecen();
 
-        public static LinkedList<ZlecenieArchiwalne> ListaZlecen
+        private  LinkedList<ZlecenieArchiwalne> _listaZlecen = new LinkedList<ZlecenieArchiwalne>(); // tak to rozwiazac czy w konstruktorze tworzcy obiekt?
+
+        public  LinkedList<ZlecenieArchiwalne> ListaZlecen
         {
             get { return _listaZlecen; }
             set { _listaZlecen = value; }
         }
 
-        public static LinkedList<ZlecenieArchiwalne> ZwrocRekordyKlienta(int numerKlienta)
+        public static HistoriaZlecen GetInstance()
+        {
+            return _instance;
+        }
+
+        public  LinkedList<ZlecenieArchiwalne> ZwrocRekordyKlienta(int numerKlienta)
         {
             LinkedList<ZlecenieArchiwalne> wynik = new LinkedList<ZlecenieArchiwalne>();
             foreach (ZlecenieArchiwalne z in _listaZlecen)

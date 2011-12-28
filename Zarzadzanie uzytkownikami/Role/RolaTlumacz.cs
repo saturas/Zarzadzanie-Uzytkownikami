@@ -7,7 +7,25 @@ namespace Zarzadzanie_uzytkownikami
 {
     class RolaTlumacz : Rola
     {
+        static int _numerator; // uzyjemy tego do dynamicznego nadawania numerow Tlumaczom
+
+        // numery tlumaczy przydzadza sie do przypisywania ich kazdeomu dokumentowi. ?
+        int _numer; // numer indywidualny dla kazdego egzemplarza
+
+
         LinkedList<ZlecenieBiezace> _listaWykonywanychZlecen = new LinkedList<ZlecenieBiezace>();
+
+        public int Numerator
+        {
+            get { return _numerator; }
+            set { _numerator = value; }
+        }
+
+        public int Numer
+        {
+            get { return _numer; }
+            set { _numer = value; }
+        }
 
         public LinkedList<ZlecenieBiezace> ListaWykonywanychZlecen
         {

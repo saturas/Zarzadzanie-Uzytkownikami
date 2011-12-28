@@ -50,7 +50,7 @@ namespace Zarzadzanie_uzytkownikami
 
         public LinkedList<ZlecenieArchiwalne> PrzegladajHistorieZLecen()
         {
-            return HistoriaZlecen.ZwrocRekordyKlienta(Numer);
+            return HistoriaZlecen.GetInstance().ZwrocRekordyKlienta(Numer);
         }
         
 

@@ -42,7 +42,7 @@ namespace Zarzadzanie_uzytkownikami
 
             ZlecenieArchiwalne z = new ZlecenieArchiwalne(nazwyDokumentow, numeryTlumaczow, NumerKlienta );
             
-            HistoriaZlecen.ListaZlecen.AddLast(z);
+            HistoriaZlecen.GetInstance().ListaZlecen.AddLast(z);
 
         }
 

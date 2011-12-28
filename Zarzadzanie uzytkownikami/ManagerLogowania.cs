@@ -11,6 +11,7 @@ namespace Zarzadzanie_uzytkownikami
         LinkedList<Uzytkownik> _listaUzytkownikowNiezalogowanych = new LinkedList<Uzytkownik>();
         LinkedList<Uzytkownik> _listaUzytkownikowNiezweryfikowanych = new LinkedList<Uzytkownik>();
 
+
         public LinkedList<Uzytkownik> ListaUzytkownikowZalogowanych
         {
             get { return _listaUzytkownikowZalogowanych; }
