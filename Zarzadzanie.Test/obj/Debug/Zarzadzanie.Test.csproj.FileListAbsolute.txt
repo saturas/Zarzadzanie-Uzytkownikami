@@ -1,0 +1,12 @@
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\Zarzadzanie.Test.dll
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\Zarzadzanie.Test.pdb
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\Zarzadzanie uzytkownikami.exe
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\Zarzadzanie uzytkownikami.pdb
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\Zarzadzanie uzytkownikami_Accessor.exe
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\Zarzadzanie uzytkownikami_Accessor.pdb
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\obj\Debug\Zarzadzanie.Test.dll
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\obj\Debug\Zarzadzanie.Test.pdb
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\NMock2.AcceptanceTests.dll
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\NMock2.dll
+C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\bin\Debug\NMock2.Test.dll

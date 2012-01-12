@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="efb06adc-cf5c-41dc-8e5f-b2a71935d620" name="Okrm@OKRM-KOMPUTER 2012-01-12 15:46:41" runUser="Okrm-Komputer\Okrm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="41c0aacb-8128-43b7-a8f9-312aaf052968">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Okrm_OKRM-KOMPUTER 2012-01-12 15_46_41">
+      <DeploymentItem filename="C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\nmock2-2.0.0.44-net-2.0\bin\NMock2.Test.dll" />
+      <DeploymentItem filename="C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\nmock2-2.0.0.44-net-2.0\bin\NMock2.dll" />
+      <DeploymentItem filename="C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie uzytkownikami\bin\Debug\Zarzadzanie uzytkownikami.exe" />
+      <DeploymentItem filename="C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\nmock2-2.0.0.44-net-2.0\bin\NMock2.AcceptanceTests.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-12T15:46:41.0820312+01:00" queuing="2012-01-12T15:46:41.1230468+01:00" start="2012-01-12T15:46:41.1464843+01:00" finish="2012-01-12T15:46:41.6562500+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="9" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ListaUzytkownikowZalogowanychTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="3bded695-a44d-d000-f8bd-32e5d3767d74">
+      <Execution id="2384273d-df77-409c-bfda-d16517e8065b" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaUzytkownikowZalogowanychTest" />
+    </UnitTest>
+    <UnitTest name="ListaUzytkownikowNiezweryfikowanychTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="519de9e3-74d7-1d8e-7964-df05b50898a6">
+      <Execution id="40067804-6a4a-41e2-b833-352d290d923e" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaUzytkownikowNiezweryfikowanychTest" />
+    </UnitTest>
+    <UnitTest name="RejestrujNowegoKlientaTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="a5e6cfdc-d03b-f615-c8e0-28221302a5bf">
+      <Execution id="3bbfda5b-8bb0-4bf5-b9a1-7b7206c57142" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RejestrujNowegoKlientaTest" />
+    </UnitTest>
+    <UnitTest name="getInstanceTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="5b7704fd-a0e4-ed35-63c8-c95a40ae20ce">
+      <Execution id="a000b5e5-07da-4117-abf6-48f483ea7155" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getInstanceTest" />
+    </UnitTest>
+    <UnitTest name="DodajNowegoAdministratoraTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="173c2bf1-7b82-ff5b-5118-99785ebbfb00">
+      <Execution id="ab508a75-b08a-4358-ab1e-2f3e6cd04885" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DodajNowegoAdministratoraTest" />
+    </UnitTest>
+    <UnitTest name="ListaUzytkownikowNiezalogowanychTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="3b6ec050-6969-750d-e6d6-acec7372d75a">
+      <Execution id="b333d1ec-aeb6-4de2-a635-8177b504b7f3" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaUzytkownikowNiezalogowanychTest" />
+    </UnitTest>
+    <UnitTest name="WeryfikujTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="3178001c-65da-5894-4de5-45f2a7c6ef84">
+      <Execution id="df116036-a5fe-4fee-b3b4-c6eecf8ec883" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WeryfikujTest" />
+    </UnitTest>
+    <UnitTest name="ListaUzytkownikowZNowymiRolamiTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="7aaa9e5d-f821-2b44-afa3-7b32fefca889">
+      <Execution id="c78c80e2-1cbf-4031-8522-7c0ecf8705bb" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListaUzytkownikowZNowymiRolamiTest" />
+    </UnitTest>
+    <UnitTest name="RejestrujNowegoTlumaczaTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="6c257bae-a8df-31ac-b3f4-3f9ca8bdbf93">
+      <Execution id="c9257a54-ba57-47c3-b7aa-7a5956d1d088" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RejestrujNowegoTlumaczaTest" />
+    </UnitTest>
+    <UnitTest name="DodajNowegoPracownikaTest" storage="c:\users\okrm\desktop\projekt - zarzadzania uzytkownikami\saturas-zarzadzanie-uzytkownikami-975c2b5\saturas-zarzadzanie-uzytkownikami-975c2b5\zarzadzanie.test\bin\debug\zarzadzanie.test.dll" id="9c97b3a4-4c72-95fe-740e-5c12ee2c3741">
+      <Execution id="f75039d0-52b3-4bcc-b5f8-bbb526d989f6" />
+      <TestMethod codeBase="C:/Users/Okrm/Desktop/Projekt - zarzadzania uzytkownikami/saturas-Zarzadzanie-Uzytkownikami-975c2b5/saturas-Zarzadzanie-Uzytkownikami-975c2b5/Zarzadzanie.Test/bin/Debug/Zarzadzanie.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest, Zarzadzanie.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DodajNowegoPracownikaTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="173c2bf1-7b82-ff5b-5118-99785ebbfb00" executionId="ab508a75-b08a-4358-ab1e-2f3e6cd04885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3178001c-65da-5894-4de5-45f2a7c6ef84" executionId="df116036-a5fe-4fee-b3b4-c6eecf8ec883" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b6ec050-6969-750d-e6d6-acec7372d75a" executionId="b333d1ec-aeb6-4de2-a635-8177b504b7f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bded695-a44d-d000-f8bd-32e5d3767d74" executionId="2384273d-df77-409c-bfda-d16517e8065b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="519de9e3-74d7-1d8e-7964-df05b50898a6" executionId="40067804-6a4a-41e2-b833-352d290d923e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b7704fd-a0e4-ed35-63c8-c95a40ae20ce" executionId="a000b5e5-07da-4117-abf6-48f483ea7155" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c257bae-a8df-31ac-b3f4-3f9ca8bdbf93" executionId="c9257a54-ba57-47c3-b7aa-7a5956d1d088" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7aaa9e5d-f821-2b44-afa3-7b32fefca889" executionId="c78c80e2-1cbf-4031-8522-7c0ecf8705bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c97b3a4-4c72-95fe-740e-5c12ee2c3741" executionId="f75039d0-52b3-4bcc-b5f8-bbb526d989f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5e6cfdc-d03b-f615-c8e0-28221302a5bf" executionId="3bbfda5b-8bb0-4bf5-b9a1-7b7206c57142" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ab508a75-b08a-4358-ab1e-2f3e6cd04885" testId="173c2bf1-7b82-ff5b-5118-99785ebbfb00" testName="DodajNowegoAdministratoraTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0166239" startTime="2012-01-12T15:46:41.1640625+01:00" endTime="2012-01-12T15:46:41.4248046+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab508a75-b08a-4358-ab1e-2f3e6cd04885">
+    </UnitTestResult>
+    <UnitTestResult executionId="df116036-a5fe-4fee-b3b4-c6eecf8ec883" testId="3178001c-65da-5894-4de5-45f2a7c6ef84" testName="WeryfikujTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0278498" startTime="2012-01-12T15:46:41.4267578+01:00" endTime="2012-01-12T15:46:41.4716796+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df116036-a5fe-4fee-b3b4-c6eecf8ec883">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   w Zarzadzanie_Uzytkownikami.Tests.ManagerLogowaniaTest.WeryfikujTest() w C:\Users\Okrm\Desktop\Projekt - zarzadzania uzytkownikami\saturas-Zarzadzanie-Uzytkownikami-975c2b5\saturas-Zarzadzanie-Uzytkownikami-975c2b5\Zarzadzanie.Test\ManagerLogowaniaTest.cs:wiersz 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b333d1ec-aeb6-4de2-a635-8177b504b7f3" testId="3b6ec050-6969-750d-e6d6-acec7372d75a" testName="ListaUzytkownikowNiezalogowanychTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0066731" startTime="2012-01-12T15:46:41.4794921+01:00" endTime="2012-01-12T15:46:41.5058593+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b333d1ec-aeb6-4de2-a635-8177b504b7f3">
+    </UnitTestResult>
+    <UnitTestResult executionId="2384273d-df77-409c-bfda-d16517e8065b" testId="3bded695-a44d-d000-f8bd-32e5d3767d74" testName="ListaUzytkownikowZalogowanychTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0012049" startTime="2012-01-12T15:46:41.5078125+01:00" endTime="2012-01-12T15:46:41.5263671+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2384273d-df77-409c-bfda-d16517e8065b">
+    </UnitTestResult>
+    <UnitTestResult executionId="40067804-6a4a-41e2-b833-352d290d923e" testId="519de9e3-74d7-1d8e-7964-df05b50898a6" testName="ListaUzytkownikowNiezweryfikowanychTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0003527" startTime="2012-01-12T15:46:41.5283203+01:00" endTime="2012-01-12T15:46:41.5419921+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40067804-6a4a-41e2-b833-352d290d923e">
+    </UnitTestResult>
+    <UnitTestResult executionId="a000b5e5-07da-4117-abf6-48f483ea7155" testId="5b7704fd-a0e4-ed35-63c8-c95a40ae20ce" testName="getInstanceTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0009403" startTime="2012-01-12T15:46:41.5439453+01:00" endTime="2012-01-12T15:46:41.5644531+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a000b5e5-07da-4117-abf6-48f483ea7155">
+    </UnitTestResult>
+    <UnitTestResult executionId="c9257a54-ba57-47c3-b7aa-7a5956d1d088" testId="6c257bae-a8df-31ac-b3f4-3f9ca8bdbf93" testName="RejestrujNowegoTlumaczaTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0016231" startTime="2012-01-12T15:46:41.5664062+01:00" endTime="2012-01-12T15:46:41.5839843+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9257a54-ba57-47c3-b7aa-7a5956d1d088">
+    </UnitTestResult>
+    <UnitTestResult executionId="c78c80e2-1cbf-4031-8522-7c0ecf8705bb" testId="7aaa9e5d-f821-2b44-afa3-7b32fefca889" testName="ListaUzytkownikowZNowymiRolamiTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0003459" startTime="2012-01-12T15:46:41.5869140+01:00" endTime="2012-01-12T15:46:41.6015625+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c78c80e2-1cbf-4031-8522-7c0ecf8705bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="f75039d0-52b3-4bcc-b5f8-bbb526d989f6" testId="9c97b3a4-4c72-95fe-740e-5c12ee2c3741" testName="DodajNowegoPracownikaTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0008710" startTime="2012-01-12T15:46:41.6064453+01:00" endTime="2012-01-12T15:46:41.6201171+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f75039d0-52b3-4bcc-b5f8-bbb526d989f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="3bbfda5b-8bb0-4bf5-b9a1-7b7206c57142" testId="a5e6cfdc-d03b-f615-c8e0-28221302a5bf" testName="RejestrujNowegoKlientaTest" computerName="OKRM-KOMPUTER" duration="00:00:00.0002527" startTime="2012-01-12T15:46:41.6220703+01:00" endTime="2012-01-12T15:46:41.6376953+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bbfda5b-8bb0-4bf5-b9a1-7b7206c57142">
+    </UnitTestResult>
+  </Results>
+</TestRun>

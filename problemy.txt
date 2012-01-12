@@ -1,0 +1,84 @@
+Problem:
+	Skad klient ma mieæ link do historii zleceñ?
+
+problem:
+	Postep w tlumaczeniu(stopien realizacjI) ma byc zwi¹zany z ka¿dym dokumentem z osobna czy ze zleceniem? 
+
+	zak³adam ¿e ja zwracam liste stopni realizacji dla poszczególnych dokumentow. stopien realizacji to liczba od 0 do 100
+	bêdzie to mapa postaci <nazwa dokumentu, stopien realizacji>
+
+
+problem: 
+	jak przy archiwizowaniu zlecenia biezacego usun¹æ je z listy zlecen biezacych we wszystkich rolach?
+	rozumiem ze pracownik wydaje decyzje o zakonczeniu zlecenia i dokonaniu archiwizacji
+
+problem podobny:
+	Jak przy tworzeniu nowego zlecenia przez klienta to nowe zlecenie przerzucic do listy zlecen u RolaPracownik?
+
+zmienic na diagramie:
+
+Dopisano:
+
+	numer klienta w zleceniu biezacym
+
+	Usunac ze zlecenia biezacego:
+		jezyki, nazwy dokumentow, stopien realizacji i tlumacza. oraz metody z tlumaczem i setStopienrealizacji
+
+
+28.12 
+Problemy:
+	Za³o¿y³em ¿e lista Zleceñ Bie¿¹cych u Pracownika dzieli siê na przydzielone i nie przydzielone. Ponaddto ¿e ka¿dy
+	pracownik ma tak¹ sam¹ listê bo inaczej trzeba by znaæ jakiœ algorytm rozdzia³u nowych zlecen pomiêdzy pracownikow a nie by³o
+	o tym mowy. Zreazlizowa³em to jako dwie statyczne mapy, by przechowywaæ w parze jeszce referencje
+
+
+	2. Kazdy Pracownik ma mieæ swoj¹ lise t³umaczy? Kto ma j¹ tworzyæ, on sam czy odgórnie administrator?
+
+
+	3. (ArchiwizujZlecenie w RolaPracownik)Jest taki problem ze nie wiem jak po kluczu w mapie wydobyæ jego obiekt. Jeœli to zrobie przez enumerator to on potraktuje
+	wydobyty obiekt jak typu "Obiekt" i nie bedzie siê da³o na nim wywo³aæ jego metod
+	Trzeba dokonczyc ta metode
+	
+
+	4. (Uzytkownik) Jak ³adnie usun¹æ rolê? 
+
+
+zmienic na diagramie:
+	RolaPracownik: DodajZlecenie(Zlecenie biezace, Rolaklient)
+		1. listazlecenbiezacychprzydzielonych
+		2. listazlecenbiezacychnieprzydzielonych
+		3. ArchiwizujZlecenie
+
+	Uzytkownik: 
+		1. dodac login i haslo
+
+	ManagerLogowania:
+		1. dodadc metode wyloguj
+		2. pouzupe³niac typy zwracane przez funkcje
+		3. usunac metodê sesja(na pewno nie potrzebna?)
+		4. nie przekazujemy administratora w metodach rejestracyjnych bo jest to niepotrzebne
+		5. dodac parametry imie i nazwisko w rejestracyjnych
+
+	RolaAdministrator:
+		1. Zmienic nazwe metody dodajAdminna na dodaj administratora
+		2. Dodac parametry metody dodajAdministratora i dodajPracownika
+		3. usunac parametry z weryfikujPoprawnosc
+		
+	HistoriaZlecen:
+		1. Rozwiazana jako Singleton. Trzeba dodac pole _instance typu HistoriaZlecen i metode GetInstance
+		
+	RolaTlumacz i RolaKlient:
+		1. dodanie pol numer i numerator oraz wlasciwosci do tych pol
+		
+		
+		
+		
+		
+		
+		
+TESTY - METODY DO PRZETESTOWANIA 
+
+1. Rola administrator - weryfikuj przydzial roli
+2. Rola klient - przegladanie tych wszystkich zlecen
+3. Ogolnie role - do zrobienia i przejrzenia 
+3. Zlecenie biezace tez do ogarniecia
